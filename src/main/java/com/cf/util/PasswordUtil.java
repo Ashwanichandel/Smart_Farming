@@ -147,5 +147,6 @@ public class PasswordUtil {
             log.error("Unexpected error during password hashing with custom strength", e);
             throw new RuntimeException("Failed to hash password: " + e.getMessage(), e);
         }
+
     }
 }
